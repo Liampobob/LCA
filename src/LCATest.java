@@ -12,7 +12,7 @@ public class LCATest {
     public void testLowestCommonAncestor() {
         assertEquals(5, LCA.lowestCommonAncestor(head, 7, 8));
         assertEquals(1, LCA.lowestCommonAncestor(head, 2, 3));
-        assertEquals(5, LCA.lowestCommonAncestor(head, 7, 7));
+        assertEquals(7, LCA.lowestCommonAncestor(head, 7, 7));
 
 
         //edge cases
