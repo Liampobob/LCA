@@ -3,7 +3,7 @@ import static junit.framework.TestCase.assertEquals;
 public class LCATest {
 
     @org.junit.Test
-    public void testLowestCommonAncestor() {
+    public void testBinaryLowestCommonAncestor() {
         Node head = new Node(1,
                 new Node(2,
                         new Node (4,
@@ -13,16 +13,17 @@ public class LCATest {
                                 new Node(7),
                                 new Node(8)), null));
 
-        assertEquals(5, LCA.lowestCommonAncestor(head, 7, 8));
         assertEquals(1, LCA.lowestCommonAncestor(head, 2, 3));
-        assertEquals(7, LCA.lowestCommonAncestor(head, 7, 7));
-        assertEquals(2, LCA.lowestCommonAncestor(head, 2, 4));
         assertEquals(1, LCA.lowestCommonAncestor(head, 5, 4));
         assertEquals(1, LCA.lowestCommonAncestor(head, 8, 6));
+        assertEquals(2, LCA.lowestCommonAncestor(head, 2, 4));
+        assertEquals(5, LCA.lowestCommonAncestor(head, 7, 8));
+        assertEquals(7, LCA.lowestCommonAncestor(head, 7, 7));
+
     }
 
     @org.junit.Test
-    public void testEdgeCasesLowestCommonAncestor(){
+    public void testEdgeCasesBinaryLowestCommonAncestor(){
         Node head = new Node(1,
                 new Node(2,
                         new Node (4,

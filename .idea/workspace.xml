@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LCATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+            <state relative-caret-position="285">
+              <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -171,7 +171,7 @@
       <updated>1570453999480</updated>
       <workItem from="1570454000948" duration="1985000" />
       <workItem from="1571007010204" duration="571000" />
-      <workItem from="1571229926691" duration="2288000" />
+      <workItem from="1571229926691" duration="2457000" />
     </task>
     <servers />
   </component>
@@ -203,9 +203,12 @@
     <history-entry file="LCATest_testLowestCommonAncestor - 2019.10.17 at 23h 56m 50s.xml">
       <configuration name="LCATest.testLowestCommonAncestor" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LCATest - 2019.10.17 at 23h 58m 42s.xml">
+      <configuration name="LCATest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4844000" />
+    <option name="totallyTimeSpent" value="5013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -277,6 +280,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LCA$LCATest.ic" NAME="LCATest Coverage Results" MODIFIED="1571353312652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node.java" />
     <entry file="file://$PROJECT_DIR$/src/Node.java">
@@ -298,8 +304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LCATest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+        <state relative-caret-position="285">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
         </state>
       </provider>
     </entry>
