@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfabf00b-4e1d-4402-8b7a-09fead12d690" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/LCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LCA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LCATest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LCATest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" lean-forward="true" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LCATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="380">
+              <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,8 +69,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/node.java" />
-        <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/LCA.java" />
+        <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/LCATest.java" />
       </list>
     </option>
@@ -202,14 +202,11 @@
       <workItem from="1571007010204" duration="571000" />
       <workItem from="1571229926691" duration="2288000" />
       <workItem from="1571369632647" duration="22000" />
-      <workItem from="1571369841531" duration="1790000" />
+      <workItem from="1571369841531" duration="1959000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LCATest_testBinaryLowestCommonAncestor - 2019.10.18 at 17h 08m 31s.xml">
-      <configuration name="LCATest.testBinaryLowestCommonAncestor" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LCATest_testBinaryLowestCommonAncestor - 2019.10.18 at 17h 08m 35s.xml">
       <configuration name="LCATest.testBinaryLowestCommonAncestor" configurationId="JUnit" />
     </history-entry>
@@ -237,9 +234,12 @@
     <history-entry file="LCATest_testDirectedLowestCommonAncestor - 2019.10.18 at 17h 20m 41s.xml">
       <configuration name="LCATest.testDirectedLowestCommonAncestor" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LCATest - 2019.10.18 at 17h 21m 37s.xml">
+      <configuration name="LCATest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6656000" />
+    <option name="totallyTimeSpent" value="6825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -332,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -342,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LCATest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="380">
+          <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

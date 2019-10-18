@@ -1,11 +1,12 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Node {
     int name;
     List<Node> nodes;
 
-    public Node(int name, List<Node> nodes){
+    public Node(int name){
         this.name = name;
-        this.nodes = nodes;
+        this.nodes = new ArrayList<Node>();
     }
 }
