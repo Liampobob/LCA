@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 import static junit.framework.TestCase.assertEquals;
 
 public class LCATest {
@@ -61,9 +59,8 @@ public class LCATest {
         assertEquals(1, LCA.lowestCommonAncestor(head, 2, 3));
         assertEquals(1, LCA.lowestCommonAncestor(head, 6, 11));
         assertEquals(1, LCA.lowestCommonAncestor(head, 8, 9));
-        assertEquals(2, LCA.lowestCommonAncestor(head, 2, 4));
-        assertEquals(5, LCA.lowestCommonAncestor(head, 7, 8));
-        assertEquals(7, LCA.lowestCommonAncestor(head, 7, 7));
+        assertEquals(10, LCA.lowestCommonAncestor(head, 11, 12));
+        assertEquals(10, LCA.lowestCommonAncestor(head, 10, 11));
 
     }
 
@@ -84,8 +81,8 @@ public class LCATest {
 
         //edge cases
         assertEquals(Integer.MIN_VALUE, LCA.lowestCommonAncestor(head, 15, 6));
-        assertEquals(Integer.MIN_VALUE, LCA.lowestCommonAncestor(head, 6, 0));
-        assertEquals(Integer.MIN_VALUE, LCA.lowestCommonAncestor(null, 1, 2));
+        assertEquals(Integer.MIN_VALUE, LCA.lowestCommonAncestor(head, 10, 0));
+        assertEquals(Integer.MIN_VALUE, LCA.lowestCommonAncestor(null, 10, 12));
         assertEquals(Integer.MIN_VALUE, LCA.lowestCommonAncestor(head, 6, Integer.MIN_VALUE));
         assertEquals(Integer.MIN_VALUE, LCA.lowestCommonAncestor(head, 6, Integer.MAX_VALUE));
 

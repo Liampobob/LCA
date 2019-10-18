@@ -6,15 +6,11 @@ public class LCA {
         List<Integer> path1 = new ArrayList<>();
         List<Integer> path2 = new ArrayList<>();
 
-        if (!findNodePath(head, a, path1) || !findNodePath(head, b, path2)) {
-            return Integer.MIN_VALUE;
-        }
+        if (!findNodePath(head, a, path1) || !findNodePath(head, b, path2)) { return Integer.MIN_VALUE; }
 
         int i = 0;
         while(i < path1.size() && i < path2.size()) {
-
             if (!path1.get(i).equals(path2.get(i))) { break; }
-
             i++;
         }
 
@@ -30,9 +26,7 @@ public class LCA {
 
         if (root.nodes != null) {
             for (Node node : root.nodes) {
-                if (findNodePath(node, n, path)) {
-                    return true;
-                }
+                if (findNodePath(node, n, path)) { return true; }
             }
         }
 
