@@ -1,17 +1,20 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Node {
     int name;
-    Node left;
-    Node right;
-
-    public Node(int name, Node left, Node right){
-        this.name = name;
-        this.left = left;
-        this.right = right;
-    }
+    List<Node> nodes;
 
     public Node(int name){
         this.name = name;
-        this.left = null;
-        this.right = null;
+        this.nodes = new ArrayList<Node>();
+    }
+
+    public Node get(int i){
+        return this.nodes.get(i);
+    }
+
+    public void add(Node n){
+        this.nodes.add(n);
     }
 }

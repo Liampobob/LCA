@@ -23,7 +23,14 @@
         <entry file="file://$PROJECT_DIR$/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LCA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="277">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,8 +50,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LCATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            <state relative-caret-position="435">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,6 +75,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/node.java" />
+        <option value="$PROJECT_DIR$/src/LCA.java" />
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/LCATest.java" />
         <option value="$PROJECT_DIR$/src/LCA.java" />
@@ -82,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,6 +104,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -135,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LCATest.testLowestCommonAncestor">
+  <component name="RunManager" selected="JUnit.LCATest">
     <configuration name="LCATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LCA" />
       <option name="PACKAGE_NAME" value="" />
@@ -155,6 +166,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LCATest.testDirectedLowestCommonAncestor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LCA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LCATest" />
+      <option name="METHOD_NAME" value="testDirectedLowestCommonAncestor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LCATest.testLowestCommonAncestor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LCA" />
       <option name="PACKAGE_NAME" value="" />
@@ -167,9 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LCATest.testLowestCommonAncestor" />
-        <item itemvalue="JUnit.LCATest.testBinaryLowestCommonAncestor" />
         <item itemvalue="JUnit.LCATest" />
+        <item itemvalue="JUnit.LCATest.testLowestCommonAncestor" />
+        <item itemvalue="JUnit.LCATest.testDirectedLowestCommonAncestor" />
+        <item itemvalue="JUnit.LCATest.testBinaryLowestCommonAncestor" />
+        <item itemvalue="JUnit.LCATest.testBinaryLowestCommonAncestor" />
       </list>
     </recent_temporary>
   </component>
@@ -185,32 +208,42 @@
       <updated>1570453999480</updated>
       <workItem from="1570454000948" duration="1985000" />
       <workItem from="1571007010204" duration="571000" />
-      <workItem from="1571229926691" duration="4876000" />
-      <workItem from="1571369405783" duration="168000" />
+      <workItem from="1571229926691" duration="2288000" />
+      <workItem from="1571369632647" duration="22000" />
+      <workItem from="1571369841531" duration="2154000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LCATest_testLowestCommonAncestor - 2019.10.17 at 03h 05m 18s.xml">
-      <configuration name="LCATest.testLowestCommonAncestor" configurationId="JUnit" />
+    <history-entry file="LCATest_testBinaryLowestCommonAncestor - 2019.10.18 at 17h 08m 37s.xml">
+      <configuration name="LCATest.testBinaryLowestCommonAncestor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LCATest_testLowestCommonAncestor - 2019.10.17 at 03h 07m 00s.xml">
-      <configuration name="LCATest.testLowestCommonAncestor" configurationId="JUnit" />
+    <history-entry file="LCATest_testBinaryLowestCommonAncestor - 2019.10.18 at 17h 10m 41s.xml">
+      <configuration name="LCATest.testBinaryLowestCommonAncestor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LCATest_testLowestCommonAncestor - 2019.10.17 at 03h 08m 16s.xml">
-      <configuration name="LCATest.testLowestCommonAncestor" configurationId="JUnit" />
+    <history-entry file="LCATest_testBinaryLowestCommonAncestor - 2019.10.18 at 17h 10m 48s.xml">
+      <configuration name="LCATest.testBinaryLowestCommonAncestor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LCATest_testLowestCommonAncestor - 2019.10.17 at 03h 09m 28s.xml">
-      <configuration name="LCATest.testLowestCommonAncestor" configurationId="JUnit" />
+    <history-entry file="LCATest - 2019.10.18 at 17h 10m 54s.xml">
+      <configuration name="LCATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LCATest_testLowestCommonAncestor - 2019.10.17 at 23h 55m 10s.xml">
-      <configuration name="LCATest.testLowestCommonAncestor" configurationId="JUnit" />
+    <history-entry file="LCATest - 2019.10.18 at 17h 13m 36s.xml">
+      <configuration name="LCATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LCATest_testLowestCommonAncestor - 2019.10.17 at 23h 55m 31s.xml">
-      <configuration name="LCATest.testLowestCommonAncestor" configurationId="JUnit" />
+    <history-entry file="LCATest_testBinaryLowestCommonAncestor - 2019.10.18 at 17h 14m 54s.xml">
+      <configuration name="LCATest.testBinaryLowestCommonAncestor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LCATest_testLowestCommonAncestor - 2019.10.17 at 23h 56m 50s.xml">
-      <configuration name="LCATest.testLowestCommonAncestor" configurationId="JUnit" />
+    <history-entry file="LCATest - 2019.10.18 at 17h 14m 59s.xml">
+      <configuration name="LCATest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LCATest_testDirectedLowestCommonAncestor - 2019.10.18 at 17h 20m 41s.xml">
+      <configuration name="LCATest.testDirectedLowestCommonAncestor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LCATest - 2019.10.18 at 17h 21m 37s.xml">
+      <configuration name="LCATest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LCATest - 2019.10.18 at 17h 24m 28s.xml">
+      <configuration name="LCATest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LCATest - 2019.10.17 at 23h 58m 42s.xml">
       <configuration name="LCATest" configurationId="JUnit" />
@@ -223,13 +256,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7600000" />
+    <option name="totallyTimeSpent" value="7020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22161172" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22405373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -249,7 +282,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -301,24 +334,41 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node.java" />
-    <entry file="file://$PROJECT_DIR$/src/Node.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LCATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LCA.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LCATest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
