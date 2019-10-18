@@ -1,11 +1,17 @@
-import java.util.List;
-
 public class Node {
     int name;
-    List<Node> nodes;
+    Node left;
+    Node right;
 
-    public Node(int name, List<Node> nodes){
+    public Node(int name, Node left, Node right){
         this.name = name;
-        this.nodes = nodes;
+        this.left = left;
+        this.right = right;
+    }
+
+    public Node(int name){
+        this.name = name;
+        this.left = null;
+        this.right = null;
     }
 }
