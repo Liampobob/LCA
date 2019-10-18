@@ -27,9 +27,9 @@ public class LCA {
 
         if (root.name == n) { return true; }
 
-        if (findNodePath(root.left, n, path)) { return true; }
+        if (findNodePath(root.nodes.get(0), n, path)) { return true; }
 
-        if (findNodePath(root.right, n, path)) { return true; }
+        if (findNodePath(root.nodes.get(1), n, path)) { return true; }
 
         path.remove(path.size() - 1);
 
