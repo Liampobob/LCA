@@ -29,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LCA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="150">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LCATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="224">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,8 +70,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/node.java" />
         <option value="$PROJECT_DIR$/src/Node.java" />
-        <option value="$PROJECT_DIR$/src/LCATest.java" />
         <option value="$PROJECT_DIR$/src/LCA.java" />
+        <option value="$PROJECT_DIR$/src/LCATest.java" />
       </list>
     </option>
   </component>
@@ -159,6 +159,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LCATest.testDirectedLowestCommonAncestor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LCA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LCATest" />
+      <option name="METHOD_NAME" value="testDirectedLowestCommonAncestor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LCATest.testLowestCommonAncestor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LCA" />
       <option name="PACKAGE_NAME" value="" />
@@ -172,6 +182,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LCATest" />
+        <item itemvalue="JUnit.LCATest.testDirectedLowestCommonAncestor" />
         <item itemvalue="JUnit.LCATest.testBinaryLowestCommonAncestor" />
         <item itemvalue="JUnit.LCATest.testLowestCommonAncestor" />
       </list>
@@ -191,23 +202,11 @@
       <workItem from="1571007010204" duration="571000" />
       <workItem from="1571229926691" duration="2288000" />
       <workItem from="1571369632647" duration="22000" />
-      <workItem from="1571369841531" duration="1335000" />
+      <workItem from="1571369841531" duration="1790000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LCATest - 2019.10.18 at 17h 03m 56s.xml">
-      <configuration name="LCATest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LCATest_testBinaryLowestCommonAncestor - 2019.10.18 at 17h 05m 18s.xml">
-      <configuration name="LCATest.testBinaryLowestCommonAncestor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LCATest_testBinaryLowestCommonAncestor - 2019.10.18 at 17h 06m 48s.xml">
-      <configuration name="LCATest.testBinaryLowestCommonAncestor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LCATest_testBinaryLowestCommonAncestor - 2019.10.18 at 17h 06m 51s.xml">
-      <configuration name="LCATest.testBinaryLowestCommonAncestor" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LCATest_testBinaryLowestCommonAncestor - 2019.10.18 at 17h 08m 31s.xml">
       <configuration name="LCATest.testBinaryLowestCommonAncestor" configurationId="JUnit" />
     </history-entry>
@@ -226,9 +225,21 @@
     <history-entry file="LCATest - 2019.10.18 at 17h 10m 54s.xml">
       <configuration name="LCATest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LCATest - 2019.10.18 at 17h 13m 36s.xml">
+      <configuration name="LCATest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LCATest_testBinaryLowestCommonAncestor - 2019.10.18 at 17h 14m 54s.xml">
+      <configuration name="LCATest.testBinaryLowestCommonAncestor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LCATest - 2019.10.18 at 17h 14m 59s.xml">
+      <configuration name="LCATest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LCATest_testDirectedLowestCommonAncestor - 2019.10.18 at 17h 20m 41s.xml">
+      <configuration name="LCATest.testDirectedLowestCommonAncestor" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6201000" />
+    <option name="totallyTimeSpent" value="6656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -302,6 +313,23 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LCA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -312,27 +340,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LCATest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LCA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        <state relative-caret-position="224">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

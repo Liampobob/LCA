@@ -10,14 +10,6 @@ public class LCA {
             return Integer.MIN_VALUE;
         }
 
-        for(int k = 0; k < path1.size(); k++){
-            for(int y = k + 1; y < path1.size(); y++){
-                if(path1.get(k).equals(path1.get(y))){
-                    return Integer.MIN_VALUE;
-                }
-            }
-        }
-
         int i = 0;
         while(i < path1.size() && i < path2.size()) {
 
