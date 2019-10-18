@@ -9,7 +9,7 @@ public class LCATest {
         Node head = new Node(1, new ArrayList<Node>());
         head.nodes.add(new Node(2, new ArrayList<Node>()));
         head.nodes.get(0).nodes.add(new Node(4, new ArrayList<Node>()));
-        head.nodes.get(0).nodes.get(0).nodes.add(new Node(8, null));
+        head.nodes.get(0).nodes.get(0).nodes.add(new Node(6, null));
         head.nodes.add(new Node(3, new ArrayList<Node>()));
         head.nodes.get(1).nodes.add(new Node(5, new ArrayList<Node>()));
         head.nodes.get(1).nodes.get(0).nodes.add(new Node(7, null));
@@ -29,7 +29,7 @@ public class LCATest {
         Node head = new Node(1, new ArrayList<Node>());
         head.nodes.add(new Node(2, new ArrayList<Node>()));
         head.nodes.get(0).nodes.add(new Node(4, new ArrayList<Node>()));
-        head.nodes.get(0).nodes.get(0).nodes.add(new Node(8, null));
+        head.nodes.get(0).nodes.get(0).nodes.add(new Node(6, null));
         head.nodes.add(new Node(3, new ArrayList<Node>()));
         head.nodes.get(1).nodes.add(new Node(5, new ArrayList<Node>()));
         head.nodes.get(1).nodes.get(0).nodes.add(new Node(7, null));

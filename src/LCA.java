@@ -9,6 +9,15 @@ public class LCA {
         if (!findNodePath(head, a, path1) || !findNodePath(head, b, path2)) {
             return Integer.MIN_VALUE;
         }
+
+        for(int k = 0; k < path1.size(); k++){
+            for(int y = k + 1; y < path1.size(); y++){
+                if(path1.get(k).equals(path1.get(y))){
+                    return Integer.MIN_VALUE;
+                }
+            }
+        }
+
         int i = 0;
         while(i < path1.size() && i < path2.size()) {
 
@@ -27,9 +36,13 @@ public class LCA {
 
         if (root.name == n) { return true; }
 
-        if (findNodePath(root.nodes.get(0), n, path)) { return true; }
-
-        if (findNodePath(root.nodes.get(1), n, path)) { return true; }
+        if (root.nodes != null) {
+            for (Node node : root.nodes) {
+                if (findNodePath(node, n, path)) {
+                    return true;
+                }
+            }
+        }
 
         path.remove(path.size() - 1);
 
